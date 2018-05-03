@@ -23,6 +23,7 @@ It's free to use and free to redistribute.
 ## Installation ##
 
 To install DMT, unzip the distribution to a folder on your web server and run the `start.sh`. Have sure the folder `data/` exists and has the appropriate permissions to be readable by your web server.
+You still have to download and install Swift Mail by your own. Install Swift wrapper using composer inside your DMT folder.
 
 ---
 
@@ -88,7 +89,3 @@ version 1.1
 Released on 04-Jan-2014  
 <http://scrow.sdf.org/php-dms/>  
 
-
-SCP
-	copy the entire folde Download located in your local machine to the remote server.
-		scp -v -r ~/Downloads root@192.168.1.3:/root/Downloads
