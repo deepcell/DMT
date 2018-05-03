@@ -1,0 +1,8 @@
+
+SCP
+
+from remote to local
+	scp -v -r user@IP:/var/www/DMT/ /var/www/
+
+from local to remote
+	scp -v -r /var/www/DMT/ user@IP:/var/www/DMT/
